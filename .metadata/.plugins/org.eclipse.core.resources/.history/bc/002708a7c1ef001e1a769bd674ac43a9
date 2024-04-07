@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class ConversaoTemperatura {
+	//método main é ponto de entrada no programa
+public static void main(String[] args) {
+	double temperaturaF = 13.5;
+	double temperaturaC;
+	final double constanteSubtracao = 32.0;
+	final double constanteDivisao = 5/9.0;
+	
+	temperaturaC = (temperaturaF - constanteSubtracao)*constanteDivisao;
+	
+	System.out.println(temperaturaF + "°F equivale a " + temperaturaC + "°C");
+}
+}
