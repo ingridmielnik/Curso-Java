@@ -1,0 +1,14 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioConversao {
+	Scanner entrada = new Scanner (System.in);
+	
+	System.out.print("Salário 1: ");
+	System.out.println("");
+	String salario1 = entrada.nextLine();
+
+	//a partir do scanner vou pegar 3 tring com nextLine que vao recener ps ultimos tres salarios
+	//ele pode usar virgula ou ponto para colocar o salario, vou fazer a soma e dar a média
+}
