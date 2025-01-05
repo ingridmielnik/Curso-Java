@@ -1,0 +1,7 @@
+package fundamentos;
+
+public class DesafioConversao {
+//a partir do scanner vou pegar 3 tring com nextLine que vao recener ps ultimos tres salarios
+//ele pode usar virgula ou ponto para colocar o salario, vou fazer a soma e dar a média
+	System.out.println(Locale.getDefault());
+}
