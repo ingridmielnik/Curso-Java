@@ -1,0 +1,10 @@
+package classes;
+
+public class DesafioPessoa {
+	String pessoa;
+	int peso;
+	
+	comer(){
+		
+	}
+}

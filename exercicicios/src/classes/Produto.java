@@ -3,14 +3,14 @@ package classes;
 public class Produto {
 	String nome;
 	double preco;
-	double desconto;
+	static double desconto = 0.25;
 	
 	//declarei de forma explicita o construtor padrão
-	Produto(String nomeInicial, double precoInicial, double descontoInicial){
+	Produto(String nomeInicial, double precoInicial){
 		nome = nomeInicial;
 		preco = precoInicial;
-		desconto = descontoInicial;
 	}
+	
 	Produto(){
 		
 	}
